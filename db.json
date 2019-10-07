@@ -1,0 +1,204 @@
+{
+"unitDetails":[
+      {
+        "id":1,
+        "project": "مطروح1",
+        "type":"فيلا",
+        "building": null,
+        "number" : 31,
+        "rentable" : true,
+        "rentable_dates":
+          {
+           "start_date": "19-6-2019",
+           "end_date":  "23-8-2019"
+          },
+        "rented": false,
+        "rents":[
+          {
+            "tenant_name": "كريم",
+            "tenant_phone": "01021051051",
+            "tenant_national_id":8645134615331,
+            "amount":2500,
+            "start_date":"28-6-2019",
+            "end_date":"1-7-2019",
+            "delivered":false,
+            "delivered_date":null
+          },
+          {
+            "tenant_name": "حسين",
+            "tenant_phone": "01164313015",
+            "tenant_national_id":4651465463,
+            "amount":3000,
+            "start_date":"9-7-2019",
+            "end_date":"14-7-2019",
+            "delivered":true,
+            "delivered_date":"23-6-2019"
+          },
+          {
+            "tenant_name": "محمود",
+            "tenant_phone": "0168451316",
+            "tenant_national_id":6531153131,
+            "amount":1500,
+            "start_date":"15-8-2019",
+            "end_date":"17-8-2019",
+            "delivered":true,
+            "delivered_date":"23-7-2019"
+          }
+          ],
+          "payments":
+          [
+          {
+            "date" : "25-6-2019",
+            "amount":"1500",
+            "client_id":2,
+            "receipt_number":1293
+          },
+          {
+            "date" : "29-3-2019",
+            "amount":"500",
+            "client_id":1,
+            "receipt_number":167
+          }
+          ],
+          "fee_types":
+          [
+            {
+              "name":"كهرباء",
+              "amount":1000,
+              "date":"13-7-2019",
+              "amount_paid":800
+            },
+            {
+              "name":"مياه",
+              "amount":500,
+              "date":"13-7-2019",
+              "amount_paid":500
+            },
+            {
+              "name":"غاز",
+              "amount":300,
+              "date":"13-7-2019",
+              "amount_paid":300
+            }
+          ],
+        "owners_ids":
+        [
+        1,2 
+        ]
+      },
+      {
+        "id":2,
+        "project": "مراسي",
+        "type":"شقة",
+        "building": 40,
+        "number" : 5,
+        "rentable" : true,
+        "rentable_dates":
+          {
+           "start_date": "7-5-2019",
+           "end_date":  "29-10-2019"
+          },
+        "rented": true,
+        "rents":[
+          {
+            "tenant_name": "عمر",
+            "tenant_phone": "0123161656",
+            "tenant_national_id":61654315884631,
+            "amount":600,
+            "start_date":"19-5-2019",
+            "end_date":"24-5-2019",
+            "delivered":true,
+            "delivered_date":"17-5-2019"
+          },
+          {
+            "tenant_name": "يحيى",
+            "tenant_phone": "01164313015",
+            "tenant_national_id":4651465463,
+            "amount":400,
+            "start_date":"26-7-2019",
+            "end_date":"29-7-2019",
+            "delivered":true,
+            "delivered_date":"23-7-2019"
+          }
+          ],
+          "payments":
+          [
+          {
+            "date" : "25-6-2019",
+            "amount":500,
+            "client_id":2,
+            "receipt_number":1943
+          }
+          ],
+          "fee_types":
+          [
+            {
+              "name":"كهرباء",
+              "amount":100,
+              "date":"13-7-2019",
+              "amount_paid":100
+            },
+            {
+              "name":"مياه",
+              "amount":50,
+              "date":"13-7-2019",
+              "amount_paid":50
+            },
+            {
+              "name":"جراج",
+              "amount":25,
+              "date":"13-7-2019",
+              "amount_paid":25
+            },
+            
+            {
+              "name":"غاز",
+              "amount":300,
+              "date":"13-7-2019",
+              "amount_paid":300
+            }
+          ],
+        "owners_ids":
+        [
+        2  
+        ]
+      },
+      {
+        "id":3,
+        "project": "مطروح2",
+        "type":"شقة",
+        "building": 18,
+        "number" : 12,
+        "rentable" : false,
+        "rentable_dates":
+          {
+           "start_date": null,
+           "end_date":  null
+          },
+        "rented": false,
+        "rents":[],
+          "payments":
+          [
+          ],
+          "fee_types":
+          [
+            {
+              "name":"كهرباء",
+              "amount":100,
+              "date":"13-7-2019",
+              "amount_paid":100
+            },
+            {
+              "name":"مياه",
+              "amount":150,
+              "date":"13-7-2019",
+              "amount_paid":100
+            }
+          ],
+        "owners_ids":
+        [
+        3  
+        ]
+      }
+    ]
+}
